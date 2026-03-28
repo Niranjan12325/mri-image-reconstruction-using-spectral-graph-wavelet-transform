@@ -66,38 +66,38 @@ main(
     iterations=200
 )
 ##  Pipeline Workflow
-  Load Data
-  Preprocessing (Normalization + FFT/IFFT)
-  Undersampling using masks
-  Graph Laplacian construction
-  Spectral Graph Wavelet Transform
-  Reconstruction using pFISTA
-  Post-processing (artifact removal)
-  Evaluation (PSNR, SSIM, RMSE, RLNE)
-  Visualization
+ - Load Data
+ - Preprocessing (Normalization + FFT/IFFT)
+ - Undersampling using masks
+ - Graph Laplacian construction
+ - Spectral Graph Wavelet Transform
+ - Reconstruction using pFISTA
+ - Post-processing (artifact removal)
+ - Evaluation (PSNR, SSIM, RMSE, RLNE)
+ - Visualization
   
 ## Output
-Ground truth image
-Undersampled image
-Reconstructed image
-Sampling mask
-Quality metrics
-Example Metrics
-PSNR: Higher is better
-SSIM: Closer to 1 is better
-RMSE: Lower is better
-RLNE: Lower is better
+  - Ground truth image
+  - Undersampled image
+  - Reconstructed image
+  - Sampling mask
+  - Quality metrics
+  - Example Metrics
+  - PSNR: Higher is better
+  - SSIM: Closer to 1 is better
+  - RMSE: Lower is better
+  - RLNE: Lower is better
 
 ## Key Algorithms
-Spectral Graph Wavelet Transform (SGWT)
-Chebyshev Polynomial Approximation
-Projected Fast Iterative Soft Thresholding Algorithm (pFISTA)
+- Spectral Graph Wavelet Transform (SGWT)
+- Chebyshev Polynomial Approximation
+- Projected Fast Iterative Soft Thresholding Algorithm (pFISTA)
 
 ## Future Improvements
-Deep learning-based reconstruction (CNN / U-Net)
-Performance optimization
-Multi-coil enhancements
-Web or GUI interface
+- Deep learning-based reconstruction (CNN / U-Net)
+- Performance optimization
+- Multi-coil enhancements
+- Web or GUI interface
 
 ## Author
 Niranjan E
